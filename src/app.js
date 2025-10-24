@@ -1,7 +1,7 @@
-let who = ['El perro', 'Mi abuela', 'El cartero', 'Mi loro'];
-let action = ['se comió', 'mojó', 'rompió', 'perdió', 'robó'];
+let who = ['El perro', 'Mi abuela', 'El cartero', 'Mi pajaro'];
+let action = ['se comió', 'se meo', 'aplasto', 'rompio'];
 let what = ['mi tarea', 'mi teléfono', 'mi coche'];
-let when = ['antes de clase', 'mientras dormía', 'mientras cocinaba', 'cuando iba saliendo', 'ahora'];
+let when = ['antes de clase', 'cuando dormía', 'cuando hacia ejercicio', 'mientras almorzaba', 'cuando rezaba'];
 
 function generarExcusa() {
   let quien = who[Math.floor(Math.random() * who.length)];
